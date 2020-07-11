@@ -1,3 +1,2 @@
-insomnia insomnia 1920 0 1720 1440
-dbeaver dbeaver 3640 0 1720 1440
-google-chrome google 5360 0 1720 1410 https://4alltech.rocket.chat/home https://outlook.office.com/mail/inbox https://payly.atlassian.net/secure/RapidBoard.jspa?rapidView=61&projectKey=PROJ&selectedIssue=PROJ-1867&sprint=232
+insomnia insomnia 960 0 960 1080
+google-chrome google 0 0 960 1080 https://dev.to/ricardo93borges https://github.com/ricardo93borges
