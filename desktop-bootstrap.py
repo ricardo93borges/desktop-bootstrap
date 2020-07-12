@@ -4,8 +4,6 @@ import sys
 
 max_retries = 20
 
-# TODO handle flag --no-resize, dont resize applications with this flag, like gnome-terminal
-
 
 def get_id_by_name(applications_running, name):
     for app in applications_running:
