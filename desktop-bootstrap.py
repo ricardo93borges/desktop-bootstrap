@@ -57,8 +57,8 @@ def handle_file(file):
             props = line.split(' ')
             command = [props[0]]
 
-            for i in range(len(props) - 5):
-                command.append(props[5+i])
+            for i in range(len(props) - 6):
+                command.append(props[6+i])
 
             output = subprocess.Popen(command)
             applications.append({
