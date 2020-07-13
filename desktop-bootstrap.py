@@ -11,12 +11,10 @@ def get_id_by_name(applications_running, name):
             return app.split(' ')[0]
 
 
-def resize(applications):
-    print(f'applications {applications}')
+def resize(applications):    
     retry = 0
     while len(applications) > 0:
         applications_running = subprocess.check_output(["wmctrl", "-lp"]).decode("utf-8").split("\n")
-        print(f'applications_running {applications_running}')
         for index, app in enumerate(applications):
             application_id = get_id_by_name(applications_running, app['name'])
             if application_id:
